@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atallah</title>
+<link rel="icon" type="image/x-icon" href="https://scontent.xx.fbcdn.net/v/t1.15752-9/462567144_3850370828551901_9115223172927171297_n.jpg?stp=dst-jpg_p480x480_tt6&_nc_cat=107&ccb=1-7&_nc_sid=0024fc&_nc_ohc=T9onvgVLM0AQ7kNvgELK1B7&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QH2gonncpw2yzr99aKUf7e0Wo6uvq6vcM3V76HkPvgxyQ&oe=676E6F70">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+body{
+background-color:AntiqueWhite;
+}
+
+img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.container {
+  position: relative;
+  font-family: Arial;
+}
+
+hr.new1 {
+  border: 1px solid black;
+}
+
+hr.new2 {
+  border: 1px solid black;
+}
+
+.fa {
+padding: 20px;
+font-size: 30px;
+width: 70px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
+}
+
+.fa:hover {
+opacity: 0.7;
+}
+.fa-instagram {
+background: BlueViolet;
+color: white;
+}
+
+.fa-snapchat-ghost {
+background: #fffc00;
+color: white;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-youtube {
+background: #bb0000;
+color: white;
+}
+
+
+
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+margin-left: 160px; /* Same as the width of the sidenav */
+padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+</style>
+</head>
+<body>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none; z-index:2; width:40%; min-width:300px" id="mySidebar">
+
+<a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button"><sup>x</sup></a>
+
+<a href="#H" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-fw fa-home"></i>Home</a>
+
+<a href="#C" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-fw fa-envelope"></i>Contact</a>
+
+<a href="#A" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-fw fa-user"></i>About</a>
+</nav>
+
+<h1 id="H"></h1>
+<!-- Top menu -->
+<div class="w3-top">
+<div class="w3-rgba(255, 0, 0) w3-xlarge" style="max-width:1200px; margin:auto">
+<div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+</div>
+</div>
+
+<div class="container">
+<img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462567144_3850370828551901_9115223172927171297_n.jpg?stp=dst-jpg_p480x480_tt6&_nc_cat=107&ccb=1-7&_nc_sid=0024fc&_nc_ohc=T9onvgVLM0AQ7kNvgELK1B7&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QH2gonncpw2yzr99aKUf7e0Wo6uvq6vcM3V76HkPvgxyQ&oe=676E6F70" alt="Nature" style="width:100%;">
+<div class="text-block">
+</div>
+</div>
+<hr class="new1">
+<h1 id="A"></h1>
+<h1 style="text-align: center"><b>About Me</b></h1>
+<p style="text-align:center">Hi, I’m Atallah, a Computer Science student with a passion for web design. I’m focused on enhancing my skills to create innovative websites. My goal is to achieve financial stability and professional growth while embracing new opportunities.</p>
+<hr class="new2">
+
+
+
+
+
+
+
+
+<h1 id="C"></h1>
+<a href="https://www.instagram.com/ia_di8/?hl=ar" class="fa fa-instagram"></a>
+<a href="https://www.youtube.com/@Atta-lix" class="fa fa-youtube"></a>
+<a href="https://snapchat.com/t/kJqbvNhK" class="fa fa-snapchat-ghost"></a>
+
+<script>
+function w3_open() {
+document.getElementById("mySidebar").style.display = "block";
+}
+function w3_close() {
+document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+</body>
+</html>
